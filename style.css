@@ -4,12 +4,13 @@ body {
 section {
   padding: 50px 0;
 }
-.navbar {
+.navbar,.navbar-brand {
   background-color: #fff;
   margin-bottom: 0;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .navbar-header > .navbar-brand {
   color: #3742fa;
   font-weight: bold;
@@ -100,12 +101,27 @@ h4{
 
 /*SECTION SERVICE*/
 .bg-image2{
-  background-image: url('https://www.backgroundsy.com/file/blue-world-map.jpg');
+  background-image: url('http://www.nightearth.com/images/high-resolution-maps/night-map-earth-normal.jpg');
   background-size: cover;
   color: #fff;
 }
 
+.dati > h1{
+  font-size: 20px;
+}
+
 /*SECTION DEVELOPMENT*/
-h2{
+h2, .fa-digital-ocean{
   color: #fff;
 }
+
+/*FOOTER*/
+.footer-column{
+  color: #fff;
+  background-color: #130f40;
+}
+.logo2 {
+  color: #fff;
+}
+
+/*DEVICE*/
