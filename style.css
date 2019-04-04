@@ -1,0 +1,80 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+section {
+  padding: 50px 0;
+}
+.navbar {
+  background-color: #fff;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar-header > .navbar-brand {
+  color: #3742fa;
+  font-weight: bold;
+}
+.nav.navbar-nav li a {
+  color: #182C61;
+  font-weight: bold;
+}
+.nav.navbar-nav li a:hover {
+  color: #3742fa;
+}
+.navbar-btn {
+  border: 1px solid #3742fa;
+  color: #3742fa;
+  font-weight: bold;
+}
+.navbar-btn:hover {
+  background-color: #3742fa;
+  color: #fff;
+}
+
+/*WELCOME*/
+.bg-image{
+  background-image: url('https://cdn.dribbble.com/users/533687/screenshots/4570073/attachments/1033538/digital-ocean-droplet-lunamik-mikepiechota.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+.welcome-to{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/*WELCOME FORM*/
+.green-btn{
+  background-color: #26de81;
+  border-color: #26de81;
+  color: #fff;
+}
+
+.google-btn{
+  color: #596275;
+}
+
+.deploy{
+  font-size: 60px;
+  font-weight: bold;
+  color: #182C61;
+}
+
+h6 a{
+  text-decoration: underline;
+}
+
+/*SECTION ICONS*/
+h5{
+  color: #a4b0be;
+}
+
+.row{
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: 0;
+}
