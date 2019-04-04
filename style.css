@@ -97,4 +97,15 @@ h4{
   color: #182C61;
   font-weight: bold;
 }
+
 /*SECTION SERVICE*/
+.bg-image2{
+  background-image: url('https://www.backgroundsy.com/file/blue-world-map.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+/*SECTION DEVELOPMENT*/
+h2{
+  color: #fff;
+}
