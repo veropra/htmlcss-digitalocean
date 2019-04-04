@@ -111,9 +111,10 @@ h4{
 }
 
 /*SECTION DEVELOPMENT*/
-h2, .fa-digital-ocean{
+h2 {
   color: #fff;
 }
+
 
 /*FOOTER*/
 .footer-column{
@@ -124,4 +125,26 @@ h2, .fa-digital-ocean{
   color: #fff;
 }
 
-/*DEVICE*/
+/*DEVICE XS*/
+
+@media (max-width: 768px) {
+* {
+  margin: 0;
+  padding: 0;
+}
+section,
+footer {
+  padding: 20px 0;
+}
+}
+/*DEVICES SM*/
+@media all and (min-width: 768px) and (max-width: 992px) {
+ul li img{
+}
+}
+/*DEVICES MD */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+}
+/*DEVICES LG*/
+@media (min-width: 1220px) {
+}
