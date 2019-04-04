@@ -72,9 +72,29 @@ h5{
 .row{
   list-style: none;
 }
+.gray{
+  background-color: #dfe4ea;
+}
 
 img {
   width: 100%;
   height: auto;
   border: 0;
 }
+/*SECTION WHITE*/
+.deploy2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #182C61;
+}
+
+p{
+  color: #2f3542;
+  font-size: 20px;
+}
+
+h4{
+  color: #182C61;
+  font-weight: bold;
+}
+/*SECTION SERVICE*/
