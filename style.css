@@ -1,25 +1,47 @@
 body {
   font-family: 'Raleway', sans-serif;
 }
+
 section {
   padding: 50px 0;
 }
+
+.right-nav{
+  float: right;
+}
+
+.right-nav ul{
+  text-align: right;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.right-nav ul li{
+  display: inline-block;
+}
+
+.after-nav{
+  height: 100%;
+  line-height: 50px;
+}
+
 .navbar,.navbar-brand {
   background-color: #fff;
   margin-bottom: 0;
   padding-top: 10px;
   padding-bottom: 10px;
+  border: none;
 }
 
 .navbar-header > .navbar-brand {
   color: #3742fa;
   font-weight: bold;
 }
-.nav.navbar-nav li a {
+.nav .navbar-nav li a {
   color: #182C61;
   font-weight: bold;
 }
-.nav.navbar-nav li a:hover {
+.nav .navbar-nav li a:hover {
   color: #3742fa;
 }
 .navbar-btn {
@@ -77,10 +99,9 @@ h5{
   background-color: #dfe4ea;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  border: 0;
+img{
+  width: 150px;
+  height: 100px;
 }
 /*SECTION WHITE*/
 .deploy2{
@@ -115,7 +136,6 @@ h2 {
   color: #fff;
 }
 
-
 /*FOOTER*/
 .footer-column{
   color: #fff;
@@ -125,26 +145,55 @@ h2 {
   color: #fff;
 }
 
-/*DEVICE XS*/
+/*DEVICE XS - phones*/
+@media all and (max-width: 768px) {
 
-@media (max-width: 768px) {
-* {
-  margin: 0;
-  padding: 0;
+  body{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+  }
+
+  section, footer{
+    padding: 50px 0;
+  }
+
+  header{
+  height: 100%;
+  margin: auto;
+  }
+
+  header .after-nav {
+  display: none;
+  }
 }
-section,
-footer {
-  padding: 20px 0;
+.col-md-2, .col-xs-12{
+  text-align: center;
 }
+
+/*DEVICES SM - tablets*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+  img{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+  }
 }
-/*DEVICES SM*/
-@media all and (min-width: 768px) and (max-width: 992px) {
-ul li img{
+/*DEVICES MD - desktops*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
 }
-}
-/*DEVICES MD */
-@media all and (min-width: 992px) and (max-width: 1200px) {
-}
-/*DEVICES LG*/
-@media (min-width: 1220px) {
+
+/*DEVICES LG - large desktops*/
+@media screen and (max-width: 1220px) {
+  .container{
+    width: 100%;
+    margin: 0 auto;
+  }
 }
